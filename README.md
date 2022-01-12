@@ -2,7 +2,7 @@
 
 This is a tool based on [Androguard](https://github.com/androguard/androguard) to check if the Activity calling the target sensor correctly closes the listener in `onPause` method.
 
-For more details, please see the [website](https://mobitec.ie.cuhk.eud.hk/phyjacking) about PHYjacking and read [our paper](#) (NDSS'22).
+For more details, please see the [website](https://mobitec.ie.cuhk.edu.hk/phyjacking) about PHYjacking and read [our paper](#) (NDSS'22).
 
 ## Run the tool to test your app
 
