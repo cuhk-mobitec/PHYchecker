@@ -18,9 +18,9 @@ Here are three python scripts to check these API calls respectively:
 
 |  API   | Sensor Open  | Sensor Close  |File  |
 |  ----  | ----  | ----  | ----  |
-| FingerprintManager  | .authenticate() | CancellationSignal.cancel() | AndroguardChecker_fp.py  |
-| Camera2  | .openCamera() | .close() | AndroguardChecker_c2.py  |
-| Camera  | .open(), .startPreview() | .release(), .stopPreview() | AndroguardChecker_c1.py  |
+| FingerprintManager  | .authenticate() | CancellationSignal.cancel() | fingerprint_checker.py |
+| Camera2  | .openCamera() | .close() | camera2_checker.py |
+| Camera  | .open(), .startPreview() | .release(), .stopPreview() | camera1_checker.py |
 
 Other APIs are easy to extend by following python code:
 ```
