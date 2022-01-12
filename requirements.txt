@@ -1,0 +1,3 @@
+androguard
+psutil
+networkx==2.3
